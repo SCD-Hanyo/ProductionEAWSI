@@ -17,7 +17,7 @@ import com.weatherstation.service.UpdateService;
 /**
  * Servlet implementation class UpdateServlet
  */
-//@WebServlet("/UpdateServlet")
+@WebServlet("/UpdateServlet")
 public class UpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

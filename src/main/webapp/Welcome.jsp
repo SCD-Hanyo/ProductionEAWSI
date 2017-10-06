@@ -23,29 +23,13 @@
 </script>
 </head>
 <body>
-	<%
-	/* *********************************************************** */
-%>
-	<%
-	/*   
-	check if loggedInflag==false, then go login
-	this flag is set to true in LoginServlet after a successfull login
-	this is the effective code, not the one in the banner,jsp, dunno why
-*/
-%>
+
 	<c:if test="${!loggedInFlag}">
-		<%
-					response.sendRedirect("Login.jsp");
-				%>
+		<% response.sendRedirect("Login.jsp"); %>
 	</c:if>
-	<%
-		/* include Banner.jsp in translation time, to ensure the username is dynamic */
-	%>
+
 	<jsp:include page="Banner.jsp" />
 	<br>
-	<%
-	/* *********************************************************** */
-%>
 
 	<!-- Station By Org LOV population -->
 	<script type="text/javascript">

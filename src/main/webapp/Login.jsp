@@ -45,8 +45,9 @@
 			
 			<table align="center">	
 			<tr align="center">	
-			<td>	
-			<label class="logintextclass">user name </td>
+			<td>
+			<element>
+				<label class="logintextclass"></element>user name </td>
 			<td>	<input class="logintextclass" type="text" name="UserName" size="19" maxlength="50"> </td>
 			</label>
 			</tr align="center">

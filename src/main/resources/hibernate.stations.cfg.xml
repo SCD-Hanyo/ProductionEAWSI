@@ -6,7 +6,9 @@
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hibernate.connection.url">jdbc:mysql://mysql/weatherstations</property>
+ 		<property name="hibernate.connection.url">jdbc:mysql://mysql/weatherstations</property>
+<!-- 		<property name="hibernate.connection.url">jdbc:mysql://http://mysql-eawsi.b9ad.pro-us-east-1.openshiftapps.com/weatherstations</property> -->
+
 		<property name="hibernate.connection.username">Hanyo</property>
         <property name="hibernate.connection.password">HailHanyo</property>
         
@@ -16,8 +18,8 @@
         <property name="c3p0.min_size">3</property>
         <property name="c3p0.max_size">20</property>
         <property name="c3p0.acquire_increment">1</property>
-        <property name="c3p0.max_statements">50</property>
-        <property name="c3p0.timeout">14400</property>
+        <property name="c3p0.max_statements">50</property> 
+        <property name="c3p0.timeout">14400</property> 
         <property name="c3p0.idle_test_period">3600</property>       
         <property name="hibernate.connection.provider_class">
 org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
