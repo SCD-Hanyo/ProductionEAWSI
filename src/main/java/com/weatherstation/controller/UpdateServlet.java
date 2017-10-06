@@ -46,6 +46,8 @@ public class UpdateServlet extends HttpServlet {
 		String date = request.getParameter("Date");
 		String time = request.getParameter("Time");
 
+		System.out.println(request.getQueryString());
+
 		date = "20" + date.substring(0, 2) + "-" + date.substring(2, 4) + "-"
 				+ date.substring(4);
 		time = time.substring(0, 2) + ":" + time.substring(2);
