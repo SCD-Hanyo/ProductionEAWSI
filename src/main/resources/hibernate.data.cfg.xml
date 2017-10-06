@@ -6,7 +6,7 @@
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hibernate.connection.url">jdbc:mysql://172.30.0.33:3306/mysql</property>
+		<property name="hibernate.connection.url">jdbc:mysql://mysql/weatherstations</property>
 		<property name="hibernate.connection.username">Hanyo</property>
         <property name="hibernate.connection.password">HailHanyo</property>
         
